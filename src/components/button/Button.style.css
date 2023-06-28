@@ -1,0 +1,55 @@
+button {
+    margin-top: 60px;
+    border: none;
+    cursor: pointer;
+}
+
+.continueButton {
+    margin-bottom: 49px;
+
+    display: block;
+    width: 300px;
+    height: 40px;
+    border-radius: 4px;
+
+    opacity: 0.95;
+    background:  #855AFF;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.continueButton.second {
+    margin-bottom: 0;
+}
+
+.disabledButton {
+    display: block;
+    width: 300px;
+    height: 40px;
+
+    border-radius: 4px;
+    opacity: 0.5;
+    background:  #855AFF;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.backButton {
+    margin-top: 9px;
+    
+    width: 300px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+
+    color: #855AFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
